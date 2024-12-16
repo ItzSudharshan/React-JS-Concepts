@@ -1,0 +1,30 @@
+What Are Props?
+Definition: Props are the inputs you pass from one component to another to control its behavior or appearance. They allow data to pass from one part of your application to another, making your components more flexible and reusable. Think of props like instructions that a parent gives to a child component, telling it what to do or how to show itself.
+
+
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <h1>Hello, {props.name}!</h1>
+  );
+}
+
+export default Greeting;
+
+
+then
+ import React from 'react';
+import Greeting from './Greeting';
+
+function App() {
+  return (
+    <div>
+      <Greeting name="Alice" />
+      <Greeting name="Bob" />
+      <Greeting name="Charlie" />
+    </div>
+  );
+}
+
+export default App;

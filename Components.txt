@@ -1,0 +1,12 @@
+React Components: Building Blocks for Amazing Apps!
+
+Definitions
+In React, components are like the building blocks of your application. A React component is a reusable piece of UI that accepts props and returns a React element that describes how a part of the user interface should appear.
+
+
+Types of Components
+React components can be divided into two main types:
+
+Functional Components
+
+Class Components
